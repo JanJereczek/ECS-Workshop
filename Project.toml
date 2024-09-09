@@ -1,6 +1,13 @@
 name = "ECS-Workshop"
-[compat]
-julia = "1.10.4"
-DrWatson = "2.15.0"
+
 [deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+GeoMakie = "db073c08-6b98-4ee5-b6a4-5efafb3259c6"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+DrWatson = "2.15.0"
+julia = "1.10.4"
