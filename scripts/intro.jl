@@ -1,8 +1,15 @@
+using NPZ
+using NetCDF
+using CairoMakie
+using GeoMakie
+using StatsBase
+using LinearAlgebra
+
 using DrWatson
 @quickactivate "ECS-Workshop"
 
 # Here you may include files from the source directory
-include(srcdir("dummy_src_file.jl"))
+include(srcdir("utils.jl"))
 
 println(
 """
